@@ -1,9 +1,9 @@
 body {
-  margin: 0px;
+  margin: px;
 }
 
 canvas {
-  background-color: rgb(233, 253, 190);
+  background-color: hsl(328, 61%, 91%);
 }
 
 img {
