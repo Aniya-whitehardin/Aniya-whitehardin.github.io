@@ -78,7 +78,7 @@
 				if (positionX > boardWidth) {//then reflecting box direction
 					speed *= -1;
 
-				}
+				} 
 				if (positionX < 0) {//then multiply by -1
 					speed *= -1
 
@@ -96,7 +96,11 @@
 				positionX = 0;
 				points = points + 1
 				changeBoxText(points);
-				speed = speed + 2
+				if (speed > 0 ) { 
+					speed = speed + 3
+				} else {
+					speed = speed - 3
+				}
 			};
 
 
